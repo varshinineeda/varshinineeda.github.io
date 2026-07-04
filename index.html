@@ -1,122 +1,150 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Personal Website</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Varshini Yasodha | Portfolio</title>
 
-    <style>
-        .education{
-    background:#f8f8f8;
-    margin:30px;
-    padding:30px;
-    border-radius:15px;
-    text-align:center;
-    box-shadow:0 5px 15px rgba(0,0,0,0.1);
-}
-
-.education h2{
-    color:#4CAF50;
-    margin-bottom:15px;
-}
-
-        *{
-            margin:0;
-            padding:0;
-            box-sizing:border-box;
-            font-family:Arial, sans-serif;
-        }
-
-        body{
-            background:#f5f5f5;
-        }
-
-        header{
-            background:#4CAF50;
-            color:white;
-            text-align:center;
-            padding:20px;
-        }
-
-        nav{
-            background:#333;
-            padding:10px;
-            text-align:center;
-        }
-
-        nav a{
-            color:white;
-            text-decoration:none;
-            margin:15px;
-            font-weight:bold;
-        }
-
-        .hero{
-            text-align:center;
-            padding:50px 20px;
-        }
-
-        .hero img{
-            width:180px;
-            height:180px;
-            border-radius:50%;
-            object-fit:cover;
-        }
-
-        .hero h2{
-            margin-top:20px;
-        }
-
-        footer{
-            background:#333;
-            color:white;
-            text-align:center;
-            padding:15px;
-            margin-top:40px;
-        }
-        .about{
-    background:white;
-    margin:30px;
-    padding:30px;
-    border-radius:15px;
-    text-align:center;
-    box-shadow:0 5px 15px rgba(0,0,0,0.1);
-}
-
-.about h2{
-    color:#4CAF50;
-    margin-bottom:15px;
-}
-
-.about p{
-    font-size:18px;
-    line-height:1.6;
-}
-    </style>
-    .skills{
-    background:white;
-    margin:30px;
-    padding:30px;
-    border-radius:15px;
-    box-shadow:0 5px 15px rgba(0,0,0,0.1);
-    text-align:center;
-}
-
-.skills h2{
-    color:#4CAF50;
-    margin-bottom:15px;
-}
-
-.skills ul{
-    list-style:none;
+<style>
+*{
+    margin:0;
     padding:0;
+    box-sizing:border-box;
+    font-family:Arial,sans-serif;
 }
 
-.skills li{
-    margin:10px 0;
-    font-size:18px;
+body{
+    background:#f5f5f5;
+    color:#333;
 }
-    <section class="skills">
+
+header{
+    background:linear-gradient(135deg,#6a11cb,#2575fc);
+    color:white;
+    text-align:center;
+    padding:60px 20px;
+}
+
+header h1{
+    font-size:42px;
+}
+
+header p{
+    margin-top:10px;
+    font-size:20px;
+}
+
+nav{
+    background:#222;
+    text-align:center;
+    padding:15px;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    margin:15px;
+    font-weight:bold;
+}
+
+section{
+    max-width:1000px;
+    margin:30px auto;
+    background:white;
+    padding:30px;
+    border-radius:15px;
+    box-shadow:0 5px 15px rgba(0,0,0,.1);
+}
+
+h2{
+    color:#2575fc;
+    margin-bottom:15px;
+}
+
+.hero{
+    text-align:center;
+}
+
+.hero img{
+    width:180px;
+    height:180px;
+    border-radius:50%;
+    object-fit:cover;
+    border:5px solid #2575fc;
+}
+
+  .hero h3{
+    font-size:28px;
+    margin-top:20px;
+}
+
+.hero p{
+    font-size:18px;
+    margin-top:10px;
+    color:#555;
+}
+
+.btn{
+    display:inline-block;
+    margin-top:20px;
+    padding:12px 25px;
+    background:#2575fc;
+    color:white;
+    text-decoration:none;
+    border-radius:30px;
+    transition:.3s;
+}
+
+.btn:hover{
+    background:#6a11cb;
+}
+
+footer{
+    background:#222;
+    color:white;
+    text-align:center;
+    padding:20px;
+    margin-top:40px;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <h1>Varshini Yasodha</h1>
+    <p>Student | Future Web Developer</p>
+</header>
+
+<nav>
+    <a href="#home">Home</a>
+    <a href="#about">About</a>
+    <a href="#education">Education</a>
+    <a href="#skills">Skills</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<section class="hero" id="home">
+    <img src="profile.jpg.jpg" alt="Profile">
+    <h3>Hello! I'm Varshini 👋</h3>
+    <p>Welcome to my personal portfolio website.</p>
+    <a href="#about" class="btn">Know More</a>
+</section>
+
+<section id="about">
+    <h2>About Me</h2>
+    <p>
+        Hi! I'm Varshini Yasodha. I'm a BCA student who enjoys learning web development and creating beautiful websites.
+    </p>
+</section>  
+  <section id="education">
+    <h2>Education</h2>
+    <p><strong>Course:</strong> Bachelor of Computer Applications (BCA)</p>
+    <p><strong>College:</strong> varshini</p>
+    <p><strong>Year:</strong> 2024 - 2027</p>
+</section>
+
+<section id="skills">
     <h2>My Skills</h2>
     <ul>
         <li>HTML</li>
@@ -125,42 +153,16 @@
         <li>Python</li>
     </ul>
 </section>
-</head>
-<body>
 
-<header>
-    <h1>Welcome to My Website</h1>
-</header>
-
-<nav>
-    <a href="#">Home</a>
-    <a href="#">About</a>
-    <a href="#">Skills</a>
-    <a href="#">Contact</a>
-</nav>
-<section class="hero">
-    <   <"img src="profile.jpg.jpg"alt="Profile">
-    <Hi, I'm Varshini 👋</h2>
-    <p>Welcome to my personal website.</p>
-</section>
-section class="hero">
-    <img src="profile.jpg" alt="Profile">
-    <h2>Hi, I'm Varshini 👋</h2>
-    <p>Welcome to my personal website.</p>
-</section>
-   <section class="hero">
-    ...
+<section id="contact">
+    <h2>Contact Me</h2>
+    <p>📧 Email: varshiniyasodha58@gmail.com</p>
+    <p>📱 Phone: +91 8270886450</p>
 </section>
 
-<section class="about">
-    <h2>About Me</h2>
-    <p>
-        Hi! I'm <b>Varshini Yasodha</b>. I'm passionate about web development and learning new technologies. I enjoy creating beautiful and user-friendly websites.
-    </p>
-</section>     
 <footer>
-    © 2026 Varshini | All Rights Reserved
+    <p>© 2026 Varshini Yasodha | All Rights Reserved</p>
 </footer>
 
 </body>
-</html>
+</html>  
