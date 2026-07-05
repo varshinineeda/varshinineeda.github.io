@@ -117,3 +117,10 @@ footer{
     background:#222;
     color:white;
 }
+.card{
+    background:#f0f0f0;
+    padding:20px;
+    margin-top:15px;
+    border-left:5px solid #2575fc;
+    border-radius:10px;
+}
