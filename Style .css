@@ -102,3 +102,26 @@ footer p{
 #topBtn:hover{
     background:#6a11cb;
 }
+.dark-btn{
+    background:#333;
+    color:white;
+    border:none;
+    padding:10px 15px;
+    border-radius:8px;
+    cursor:pointer;
+    margin-left:15px;
+}
+
+.dark-btn:hover{
+    background:#555;
+}
+
+.dark-mode{
+    background:#121212;
+    color:white;
+}
+
+.dark-mode section{
+    background:#1e1e1e;
+    color:white;
+}
