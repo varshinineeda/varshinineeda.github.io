@@ -12,3 +12,6 @@ function topFunction() {
         behavior: "smooth"
     });
 }
+function toggleDarkMode() {
+    document.body.classList.toggle("dark-mode");
+}
