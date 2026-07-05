@@ -6,3 +6,9 @@ window.onload = function () {
         document.body.style.opacity = "1";
     }, 100);
 };
+function topFunction() {
+    window.scrollTo({
+        top: 0,
+        behavior: "smooth"
+    });
+}
