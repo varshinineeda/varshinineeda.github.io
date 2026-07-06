@@ -162,3 +162,18 @@ footer{
 footer p{
     margin:5px;
 }
+#social{
+    text-align:center;
+    margin:40px 0;
+}
+
+#social a{
+    text-decoration:none;
+    color:#2575fc;
+    font-size:20px;
+    font-weight:bold;
+}
+
+#social a:hover{
+    color:#ff4081;
+}
