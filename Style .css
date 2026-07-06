@@ -137,3 +137,17 @@ footer{
     display:block;
     margin:0 auto 15px;
 }
+.btn{
+    display:inline-block;
+    background:#2575fc;
+    color:white;
+    padding:12px 20px;
+    text-decoration:none;
+    border-radius:8px;
+    margin:20px;
+    font-weight:bold;
+}
+
+.btn:hover{
+    background:#1a5edb;
+}
