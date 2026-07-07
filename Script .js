@@ -1,29 +1,22 @@
-
-// 🌙 Dark Mode
-function toggleDarkMode() {
-    document.body.classList.toggle("dark-mode");
+function appendValue(value) {
+    document.getElementById("display").value += value;
 }
 
-// ⬆ Back to Top
-function topFunction() {
-    window.scrollTo({
-        top: 0,
-        behavior: "smooth"
-    });
+function clearDisplay() {
+    document.getElementById("display").value = "";
 }
 
-// ⌨️ Typing Animation
-const text = "Hello! I'm Varshini Yasodha 👋";
-let i = 0;
+function deleteLast() {
+    let display = document.getElementById("display");
+    display.value = display.value.slice(0, -1);
+}
 
-function typeWriter() {
-    if (i < text.length) {
-        document.getElementById("typing").innerHTML += text.charAt(i);
-        i++;
-        setTimeout(typeWriter, 100);
+function calculate() {
+    let display = document.getElementById("display");
+
+    try {
+        display.value = eval(display.value);
+    } catch (error) {
+        display.value = "Error";
     }
 }
-
-window.onload = function () {
-    typeWriter();
-};
