@@ -98,3 +98,7 @@ nav a:hover{
 .btn:hover{
     background:#e63950;
 }
+#social{
+    text-align:center;
+    margin:30px 0;
+}
